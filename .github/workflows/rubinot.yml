@@ -2,8 +2,8 @@ name: Rubinot Scraper
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # a cada 5 minutos
-  workflow_dispatch:          # permite rodar manualmente
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
   scrape:
